@@ -167,9 +167,9 @@ function renderInterview() {
     interviewList.forEach(interview => {
 
         let div = document.createElement('div')
-        div.className = 'card flex justify-between bg-white p-8 rounded shadow-xl'
+        div.className = 'card flex justify-between bg-white p-8 rounded shadow-xl mb-3'
         div.innerHTML = `
-            <div class="space-y-4">
+            <div class="space-y-4 ">
                 <div>
                     <p class="company text-blue-950 font-semibold text-2xl">${interview.company}</p>
                     <p class="jobType text-slate-500 ">${interview.jobType}</p>
@@ -225,7 +225,7 @@ function renderRejected() {
     rejectedList.forEach(rejected => {
 
         let div = document.createElement('div')
-        div.className = 'card flex justify-between bg-white p-8 rounded shadow-xl'
+        div.className = 'card flex justify-between bg-white p-8 rounded shadow-xl mb-3'
         div.innerHTML = `
             <div class="space-y-4">
                 <div>
